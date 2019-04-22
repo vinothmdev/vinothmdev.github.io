@@ -46,7 +46,7 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." />
 <link id="faviconLink" rel="shortcut icon" href="favicon.ico">
-<title>Vinoth' FOSS and Machine Learning — a personal web notebook</title>
+<title>Vinoth' Notes — a personal web notebook</title>
 <!--~~ This is a Tiddlywiki file. The points of interest in the file are marked with this pattern ~~--><!--~~ Raw markup ~~-->
 
 
@@ -147,6 +147,8 @@ Error message and password prompt
 
 <li>$:/SiteTitle</li>
 
+<li>$:/state/sidebar</li>
+
 <li>$:/state/tab/sidebar--595412856</li>
 
 <li>$:/StoryList</li>
@@ -157,9 +159,13 @@ Error message and password prompt
 
 <li>$:/themes/tiddlywiki/vanilla</li>
 
-<li>Tiddly desktop app for ubuntu</li>
+<li>Blockchain</li>
 
-<li>To-Dos</li>
+<li>Books</li>
+
+<li>Resize partition</li>
+
+<li>Tiddly desktop app for ubuntu</li>
 
 <li>useful linux commands</li>
 
@@ -9046,8 +9052,8 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20190209203710806" modified="20190209204733214" title="$:/DefaultTiddlers">
-<pre>[[useful linux commands]]</pre>
+<div created="20190209203710806" modified="20190211022330321" title="$:/DefaultTiddlers">
+<pre>[list[$:/StoryList]]</pre>
 </div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
@@ -9055,13 +9061,16 @@ Error message and password prompt
 <div created="20190209203646478" modified="20190209203646798" title="$:/SiteSubtitle">
 <pre>a personal web notebook</pre>
 </div>
-<div created="20190209203613272" modified="20190209203637052" title="$:/SiteTitle">
-<pre>Vinoth' FOSS and Machine Learning</pre>
+<div created="20190209203613272" modified="20190211022310374" title="$:/SiteTitle">
+<pre>Vinoth' Notes</pre>
+</div>
+<div created="20190422015445618" modified="20190422015445618" title="$:/state/sidebar">
+<pre>no</pre>
 </div>
 <div created="20190209210353763" modified="20190209210353763" title="$:/state/tab/sidebar--595412856">
 <pre>$:/core/ui/SideBar/Recent</pre>
 </div>
-<div list="[[Tiddly desktop app for ubuntu]] [[useful linux commands]]" title="$:/StoryList">
+<div list="[[Resize partition]] Blockchain Books [[useful linux commands]]" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -9077,7 +9086,7 @@ Error message and password prompt
         },
         &quot;$:/info/url/full&quot;: {
             &quot;title&quot;: &quot;$:/info/url/full&quot;,
-            &quot;text&quot;: &quot;file:///home/vinoth/PycharmProjects/index.html&quot;
+            &quot;text&quot;: &quot;file:///home/vinoth/github/vinothmdev.github.io/index.html&quot;
         },
         &quot;$:/info/url/host&quot;: {
             &quot;title&quot;: &quot;$:/info/url/host&quot;,
@@ -9097,7 +9106,7 @@ Error message and password prompt
         },
         &quot;$:/info/url/pathname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
-            &quot;text&quot;: &quot;/home/vinoth/PycharmProjects/index.html&quot;
+            &quot;text&quot;: &quot;/home/vinoth/github/vinothmdev.github.io/index.html&quot;
         },
         &quot;$:/info/url/search&quot;: {
             &quot;title&quot;: &quot;$:/info/url/search&quot;,
@@ -9109,7 +9118,7 @@ Error message and password prompt
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
-            &quot;text&quot;: &quot;1920&quot;
+            &quot;text&quot;: &quot;2048&quot;
         },
         &quot;$:/info/browser/screen/height&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/height&quot;,
@@ -9227,6 +9236,40 @@ Error message and password prompt
     }
 }</pre>
 </div>
+<div created="20190223171901090" modified="20190224060733306" tags="blockchain" title="Blockchain">
+<pre>&lt;&lt;&lt;
+The blockchain is an incorruptible digital ledger of economic transactions that can be programmed to record not just financial transactions but virtually everything of value - Don and Alex Tapscot
+&lt;&lt;&lt;
+! Dapp
+A Decentralized application
+
+! Wallet
+A vitual wallet we will be using to hold and access funds
+
+! Faucet
+A website you can visit to get test ether when building your DApps, Rinkby test faucet
+
+! Wei
+One of ether denomination
+
+292606442
+
+468793015
+
+
+
+</pre>
+</div>
+<div created="20190211022138852" modified="20190211022228472" tags="AI ML" title="Books">
+<pre># Pattern Recognition and Machine Learning, by C. M. Bishop, Springer, 2006</pre>
+</div>
+<div created="20190422015028088" modified="20190422015523956" tags="ubuntu linux" title="Resize partition">
+<pre>To resize my ubuntu root partition, I had to delete my swap space and create free space and recreate swap again from free space.  Due to this UUID of swap was changed and it created delay in my bootup.  The following post helped me
+
+https://askubuntu.com/questions/639559/very-slow-boot-with-ubuntu-15-04
+
+</pre>
+</div>
 <div created="20190209211651828" modified="20190209212222450" tags="ubuntu linux" title="Tiddly desktop app for ubuntu">
 <pre>tiddly desktop extract location
 
@@ -9245,17 +9288,17 @@ Name=tiddly
 Icon=~/tools/TiddlyDesktop-linux64-v0.0.13/images/Motovun.svg
 Exec=~/tools/TiddlyDesktop-linux64-v0.0.13/nw`''</pre>
 </div>
-<div created="20190209210257968" modified="20190209210322837" tags="" title="To-Dos">
-<pre>* UNSUPERVISED POLYGLOT TEXT-TO-SPEECH</pre>
-</div>
-<div created="20190209203813692" modified="20190209204103798" tags="shell linux ubuntu" title="useful linux commands">
+<div created="20190209203813692" modified="20190210090255937" tags="shell linux ubuntu" title="useful linux commands">
 <pre>!Disply Card Deatails
 sudo lshw -C display
 
 lspci -vnn | grep VGA -A 12
 
 ! Profile Cuda script
-nvprof</pre>
+nvprof
+
+! Guake
+sudo cp /usr/share/applications/guake.desktop /etc/xdg/autostart/ </pre>
 </div>
 
 </div>
